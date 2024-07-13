@@ -29,7 +29,7 @@
 
     } else {
       firstnameError.textContent = " ";
-      errorIconFirstname.className.add("hidden");
+      errorIconFirstname.classlist.add("hidden");
     }
     if (lastname.value === "") {
       lastnameError.textContent = "lastname cannot be empty";
