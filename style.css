@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-color: hsl(0, 100%, 74%) ;
+}
+
+main {
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+}
+
+main .text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .text h1 {
+  color: #fff;
+}
+
+main .text p {
+  color: white;
+  font-size: 16px;
+}
+
+main .form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-section .free-trial {
+  background-color: hsl(248, 32%, 49%);
+  padding: 12px 30px;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 300;
+ 
+}
+
+.free-trial span {
+  font-weight: 700;
+}
+
+.form-section #form {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+}
+
+#form .input-field {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+
+
+.input-field img {
+  position: absolute;
+  background: none;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #d2d2d2;
+}
+
+.input-field span {
+  color: hsl(0, 100%, 74%);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#form button {
+  background-color: hsl(154, 59%, 51%);
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#form .terms p {
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+}
+
+#form .terms p span {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 990px) {
+  main {
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  main .text {
+    width: 500px;
+    text-align: start;
+  }
+
+  main .text h1 {
+    font-size: 2.4rem;
+  }
+
+  main .form-section {
+    width: 500px;
+  }
+
+  .form-section #form {
+    gap: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
